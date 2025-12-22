@@ -1,0 +1,286 @@
+stars,forks,domain,language,repoName,dependent,sub-field,github_link,total_commits,last_commit_month,last_commit_author,last_commit_message
+1311,461,healthcare,python,huggingface/transformers,/sunlabuiuc/PyHealth,healthcare,https://github.com/sunlabuiuc/PyHealth,853,2025-11,Eric Schrock,"ChestX-ray14 Dataset and Classification Tasks (#392)
+
+* Initial version of chestxray14.py
+
+* Fix typ"
+1014,185,healthcare,python,huggingface/transformers,/bowang-lab/MedRAX,healthcare,https://github.com/bowang-lab/MedRAX,74,2025-10,Adibvafa Fallahpour,Update numpy dependency to be less than version 2
+827,213,healthcare,python,huggingface/transformers,/ubicomplab/rPPG-Toolbox,healthcare,https://github.com/ubicomplab/rPPG-Toolbox,321,2025-09,maxl,"Support LADH and SUMS Datasets (#405)
+
+* Support LADH and SUMS Datasets
+
+---------
+
+Co-authored-by: "
+300,60,healthcare,python,huggingface/transformers,/microsoft/hi-ml,healthcare,https://github.com/microsoft/hi-ml,570,2025-04,pre-commit-ci[bot],"ENH: Autoupdate hooks [pre-commit.ci] (#907)
+
+<!--pre-commit.ci start-->
+updates:
+- [github.com/pre-"
+157,28,healthcare,python,huggingface/transformers,/som-shahlab/femr,healthcare,https://github.com/som-shahlab/femr,319,2025-10,Ethan Steinberg,Remove old instructions
+148,37,healthcare,python,huggingface/transformers,/BiomedSciAI/fuse-med-ml,healthcare,https://github.com/BiomedSciAI/fuse-med-ml,545,2025-09,Alex Golts,"optionally allow to keep index column in OpReadDataframe (#411)
+
+* optionally allow to keep index co"
+87,14,healthcare,python,huggingface/transformers,/VectorInstitute/cyclops,healthcare,https://github.com/VectorInstitute/cyclops,565,2025-04,dependabot[bot],"Bump actions/setup-node from 4.3.0 to 4.4.0 (#742)
+
+Bumps [actions/setup-node](https://github.com/ac"
+47,15,healthcare,python,huggingface/transformers,/VectorInstitute/FL4Health,healthcare,https://github.com/VectorInstitute/FL4Health,3917,2025-11,David Emerson,"Merge pull request #457 from VectorInstitute/pre-commit-ci-update-config
+
+[pre-commit.ci] pre-commit"
+45,13,healthcare,python,huggingface/transformers,/VectorInstitute/odyssey,healthcare,https://github.com/VectorInstitute/odyssey,557,2025-11,Amrit Krishnan,"Merge pull request #140 from VectorInstitute/pre-commit-ci-update-config
+
+[pre-commit.ci] pre-commit"
+41,4,healthcare,python,huggingface/transformers,/liuqidong07/LEADER-pytorch,healthcare,https://github.com/liuqidong07/LEADER-pytorch,5,2024-08,LiuQidong,fix bug
+26,2,healthcare,python,huggingface/transformers,/The-Data-Dilemma/MediBeng-Whisper-Tiny,healthcare,https://github.com/The-Data-Dilemma/MediBeng-Whisper-Tiny,43,2025-07,Promila Ghosh,Update README.md
+21,7,healthcare,python,huggingface/transformers,/thuhci/RingTool,healthcare,https://github.com/thuhci/RingTool,158,2025-09,Jack Tang,"Merge pull request #34 from Sherlockk-23/fix-welch-spectrum-builtin-conflict
+
+Fix parameter name con"
+13,1,healthcare,python,huggingface/transformers,/psunlpgroup/FaMeSumm,healthcare,https://github.com/psunlpgroup/FaMeSumm,37,2024-01,Nan Zhang,add data preprocessing part
+12,1,healthcare,python,huggingface/transformers,/willxxy/Text-EGM,healthcare,https://github.com/willxxy/Text-EGM,10,2024-09,willxxy,More robust gpu check.
+8,0,healthcare,python,huggingface/transformers,/Aarhus-Psychiatry-Research/psycop-ml-utils,healthcare,https://github.com/Aarhus-Psychiatry-Research/psycop-ml-utils,997,2025-11,github-actions[bot],Merge pull request #511 from Aarhus-Psychiatry-Research/dependabot/pip/wandb-gte-0.17.4-and-lt-0.23.
+8,2,healthcare,python,huggingface/transformers,/bentoml/Pneumonia-Detection-Demo,healthcare,https://github.com/bentoml/Pneumonia-Detection-Demo,4,2023-06,Steve Guo,"Update README.md
+
+Update deploying a bento"
+6,1,healthcare,python,huggingface/transformers,/jameszhou-gl/HiSGT,healthcare,https://github.com/jameszhou-gl/HiSGT,8,2025-03,jameszhou-gl,Update README.md
+4,7,healthcare,python,huggingface/transformers,/osl-incubator/anamnesis.ai,healthcare,https://github.com/osl-incubator/anamnesis.ai,22,2025-09,semantic-release-bot,chore(release): 0.4.0
+3,0,healthcare,python,huggingface/transformers,/harmeshgv/SmartHealth-LLM,healthcare,https://github.com/harmeshgv/SmartHealth-LLM,124,2025-11,harmeshgv,updated github workflow
+3,1,healthcare,python,huggingface/transformers,/whitehathackerpr/SolarMed-AI,healthcare,https://github.com/whitehathackerpr/SolarMed-AI,5,2025-04,AKANDWANAHO IVAN ALVIN,Update README.md
+3,0,healthcare,python,huggingface/transformers,/joyceannie/Multi_Agent_Medical_System,healthcare,https://github.com/joyceannie/Multi_Agent_Medical_System,23,2025-08,Joyce,Add dataset for icd10 code agent evaluation
+2,1,healthcare,python,huggingface/transformers,/NguyenHuy190303/Salus-Analytica,healthcare,https://github.com/NguyenHuy190303/Salus-Analytica,24,2025-07,Nguyen Huy,Update README.md
+2,1,healthcare,python,huggingface/transformers,/ShatilKhan/Hemo,healthcare,https://github.com/ShatilKhan/Hemo,64,2024-10,ShatilKhan,"openpyxl
+
+I dont know, it just said on the cloud console"
+2,0,healthcare,python,huggingface/transformers,/siripragadashashank/DoctorAI,healthcare,https://github.com/siripragadashashank/DoctorAI,47,2023-04,Shashank Siripragada,Create io.yaml
+2,2,healthcare,python,huggingface/transformers,/AdesharaBrijesh/HealthCare-Chatbot,healthcare,https://github.com/AdesharaBrijesh/HealthCare-Chatbot,11,2024-07,AdesharaBrijesh,Merge branch 'main' of https://github.com/AdesharaBrijesh/HealthCare-Chatbot
+2,0,healthcare,python,huggingface/transformers,/JuliusFx131/Mozilla-Common-Voice-STT-Challenge,healthcare,https://github.com/JuliusFx131/Mozilla-Common-Voice-STT-Challenge,12,2024-12,JULIUS MWANGI,"Add files via upload
+
+This solution received a $500 award from Mozilla Common Voice."
+1,0,healthcare,python,huggingface/transformers,/AstraBert/breastcancer_contextml,healthcare,https://github.com/AstraBert/breastcancer_contextml,4,2024-05,Astra Bertelli,Update README.md
+1,1,healthcare,python,huggingface/transformers,/toonshi/ragsteps,healthcare,https://github.com/toonshi/ragsteps,26,2024-12,Muteti Erick,"Added the whatsapp button,milestone description and tracking and the education button"
+1,0,healthcare,python,huggingface/transformers,/wwfalcon/milvus_healthcare,healthcare,https://github.com/wwfalcon/milvus_healthcare,4,2025-04,wangw,UPDATE README.md
+1,0,healthcare,python,huggingface/transformers,/KStar1014/Medical-Assistant-Multi-agents,healthcare,https://github.com/KStar1014/Medical-Assistant-Multi-agents,7,2024-12,kstar1014,update
+1,3,healthcare,python,huggingface/transformers,/AdesharaBrijesh/HealthAlly,healthcare,https://github.com/AdesharaBrijesh/HealthAlly,26,2025-05,BRIJESH ADESHARA,"Merge pull request #2 from AdesharaBrijesh/AdesharaBrijesh-patch-2
+
+Update README.md"
+0,0,healthcare,python,huggingface/transformers,/sagnik-datta-02/Period-Care-Recommender,healthcare,https://github.com/sagnik-datta-02/Period-Care-Recommender,11,2024-04,Sagnik Datta,Update README.md
+0,0,healthcare,python,huggingface/transformers,/theinterneti/TTA,healthcare,https://github.com/theinterneti/TTA,238,2025-11,theinterneti,"feat: integrate Serena TTA.dev with Context7 setup
+
+- Add serena>=0.9.1 dependency to pyproject.toml"
+0,0,healthcare,python,huggingface/transformers,/shuvrajit-dey21/AI-Healthcare-Chatbot,healthcare,https://github.com/shuvrajit-dey21/AI-Healthcare-Chatbot,8,2025-07,Shuvrajit Dey,Update README.md
+0,0,healthcare,python,huggingface/transformers,/rodrigobressan/doenizer,healthcare,https://github.com/rodrigobressan/doenizer,5,2025-03,Rodrigo Bressan,Fix requirements
+0,0,healthcare,python,huggingface/transformers,/SalmaOuardi/mediguide,healthcare,https://github.com/SalmaOuardi/mediguide,12,2025-05,SalmaOuardi,Add prebuilt FAISS index
+0,0,healthcare,python,huggingface/transformers,/JackLeeJM/slm-medication-ner,healthcare,https://github.com/JackLeeJM/slm-medication-ner,2,2025-05,JackLeeJM,Initial commit
+0,0,healthcare,python,huggingface/transformers,/slyncrafty/DL4H-PRJ-UniXGen,healthcare,https://github.com/slyncrafty/DL4H-PRJ-UniXGen,14,2025-05,slyncrafty,"Added Patch to README and notebook file.
+removed utils.py
+Added and Sample run to Notebook file.
+Add"
+0,0,healthcare,python,huggingface/transformers,/Anish15AG/mental-health-prediction,healthcare,https://github.com/Anish15AG/mental-health-prediction,27,2025-02,Anish,Modified README.md with descriptive info
+0,0,healthcare,python,huggingface/transformers,/tatra-labs/Medical-Assistant,healthcare,https://github.com/tatra-labs/Medical-Assistant,22,2025-10,tatra-labs,"Merge pull request #3 from tatra-labs/dependabot/pip/scripts/SciFiveMed-package/transformers-4.53.0
+"
+8,4,healthcare,python,huggingface/transformers,/FGA-DIKU/EHR,healthcare-ai,https://github.com/FGA-DIKU/EHR,116,2025-11,Maria Montgomery,"citation (#314)
+
+* citation
+
+* bibtex"
+0,0,healthcare,python,huggingface/transformers,/HolmanGreat/Thera,healthcare-ai,https://github.com/HolmanGreat/Thera,101,2024-07,G.Holman,Update Thera.py
+105,29,healthcare,python,huggingface/transformers,/lemuria-wchen/imcs21-cblue,healthcare-application,https://github.com/lemuria-wchen/imcs21-cblue,64,2022-12,Wei Chen,Update README.md
+19,3,healthcare,python,huggingface/transformers,/claws-lab/XLingEval,healthcare-application,https://github.com/claws-lab/XLingEval,50,2024-04,Ahren_Jin,Update README.md
+2,0,healthcare,python,huggingface/transformers,/DiogoCarapito/mgfhub,healthcare-application,https://github.com/DiogoCarapito/mgfhub,394,2025-11,Diogo Carapito,"Merge pull request #17 from DiogoCarapito/main
+
+Main"
+0,0,healthcare,python,huggingface/transformers,/Shree2604/Arogya-Shree-Medi-Bot,healthcare-application,https://github.com/Shree2604/Arogya-Shree-Medi-Bot,12,2024-04,M SHREERAJ,Update README.md
+0,1,healthcare,python,huggingface/transformers,/kishore-s-15/CS6983-Class-Project,healthcare-application,https://github.com/kishore-s-15/CS6983-Class-Project,4,2024-04,Kishore Sampath,Create LICENSE
+0,0,healthcare,python,huggingface/transformers,/misska7070/Clinical_dashboard,healthcare-analytics,https://github.com/misska7070/Clinical_dashboard,13,2024-08,Khadija Anam,Update README.md
+2,0,healthcare,python,huggingface/transformers,/CoderGuy009/MediSight.AI,ai-healthcare,https://github.com/CoderGuy009/MediSight.AI,3,2025-04,Aniket Sahu,Update README.md
+1,0,healthcare,python,huggingface/transformers,/natharmatron/MediSight.AI,ai-healthcare,https://github.com/natharmatron/MediSight.AI,4,2025-11,natharmatron,Update README.md
+444,61,banking,python,huggingface/transformers,/KOSASIH/pi-nexus-autonomous-banking-network,banking-system,https://github.com/KOSASIH/pi-nexus-autonomous-banking-network,9565,2025-05,KOSASIH,"Merge pull request #1871 from KOSASIH/quantum-ml-enhancements
+
+Advanced Quantum Machine Learning Int"
+460,82,finance,python,huggingface/transformers,/Fincept-Corporation/FinceptTerminal,finance,https://github.com/Fincept-Corporation/FinceptTerminal,390,2025-11,Tilak Patel,"Merge pull request #85 from Aviral2610/main
+
+fix yf"
+209,7,finance,python,huggingface/transformers,/HiThink-Research/BizFinBench,finance,https://github.com/HiThink-Research/BizFinBench,44,2025-11,Rongjunchen (Damien) Zhang,"[fix-bug] preprocess true/false (#23)
+
+FTR????????????true/false????"
+192,33,finance,python,huggingface/transformers,/rnikitin/QuantGPT,finance,https://github.com/rnikitin/QuantGPT,20,2024-01,Roman Nikitin,"Merge pull request #8 from rnikitin/develop
+
+Develop"
+88,1,finance,python,huggingface/transformers,/alipay/fin_domain_llm,finance,https://github.com/alipay/fin_domain_llm,44,2024-04,siqiao.xsq,fix the script for web searcher
+70,13,finance,python,huggingface/transformers,/yuanbit/jina-financial-qa-search,finance,https://github.com/yuanbit/jina-financial-qa-search,7,2021-02,Bithiah Yuan,Change col match hash to id
+44,13,finance,python,huggingface/transformers,/paperswithbacktest/pwb-toolbox,finance,https://github.com/paperswithbacktest/pwb-toolbox,202,2025-11,Edouard d'Archimbaud,fix
+39,4,finance,python,huggingface/transformers,/HiThink-Research/MME-Finance,finance,https://github.com/HiThink-Research/MME-Finance,43,2025-10,Rongjunchen (Damien) Zhang,Update README.md
+35,3,finance,python,huggingface/transformers,/PrymeTyme/OpenBBDashboard,finance,https://github.com/PrymeTyme/OpenBBDashboard,5258,2023-07,MrktWzrd,"Merge pull request #2 from PrymeTyme/develop
+
+Develop"
+34,7,finance,python,huggingface/transformers,/KOSASIH/GalacticNexus-Core,finance,https://github.com/KOSASIH/GalacticNexus-Core,661,2025-06,KOSASIH,Create email_spam_classifier.py
+25,4,finance,python,huggingface/transformers,/raymond0208/CashCatalyst,finance,https://github.com/raymond0208/CashCatalyst,92,2025-05,raymond0208,Added multilingual support for Spanish and Japanese using Babel
+23,0,finance,python,huggingface/transformers,/GPTStonks/openbb-chat,finance,https://github.com/GPTStonks/openbb-chat,86,2024-03,Daedalus,"Release v0.0.11.post1
+
+The dependencies are reorganized to improve the default installation size."
+12,4,finance,python,huggingface/transformers,/orville-wright/ticker_data,finance,https://github.com/orville-wright/ticker_data,2358,2025-07,orville-wright,chore: (ROO Gemini vibes)
+7,2,finance,python,huggingface/transformers,/sankalpbhatia20/AltAPI-opensource,finance,https://github.com/sankalpbhatia20/AltAPI-opensource,99,2023-11,Sankalp Bhatia,Update README.md
+7,1,finance,python,huggingface/transformers,/ArchishmanSengupta/finLLM,finance,https://github.com/ArchishmanSengupta/finLLM,10,2024-02,Archishman Sengupta,Create README.md
+6,2,finance,python,huggingface/transformers,/AlgoTrading101/AlgoTrading101-Warren-Buffett-ChatGPT,finance,https://github.com/AlgoTrading101/AlgoTrading101-Warren-Buffett-ChatGPT,4,2024-02,Igor Radovanovic,Add files via upload
+6,3,finance,python,huggingface/transformers,/dmamakas2000/ipo,finance,https://github.com/dmamakas2000/ipo,21,2024-12,Dimitrios Mamakas,Minor updates at README.md
+5,0,finance,python,huggingface/transformers,/tripplyons/earnings,finance,https://github.com/tripplyons/earnings,8,2023-09,Tripp Lyons,Small changes and add requirements.txt
+4,0,finance,python,huggingface/transformers,/pnborchert/CORE,finance,https://github.com/pnborchert/CORE,3,2024-01,Philipp Borchert,Update README.md
+3,1,finance,python,huggingface/transformers,/jcaperella29/Financial_analyis_pipeline,finance,https://github.com/jcaperella29/Financial_analyis_pipeline,11,2025-02,jcaperella29,Add files via upload
+45,4,finance,python,huggingface/transformers,/Yubi2Community/YubiAI,fintech,https://github.com/Yubi2Community/YubiAI,108,2023-06,Swapnil Ashok Jadhav,"Merge pull request #38 from Yubi2Community/swapaj-patch-1
+
+Update textNsfwDetection.py"
+29,26,finance,python,huggingface/transformers,/huangjia2019/rag-project03-audit,fintech,https://github.com/huangjia2019/rag-project03-audit,3,2025-06,Huang Jia,???????
+17,1,finance,python,huggingface/transformers,/hirawatt/finance-tools,fintech,https://github.com/hirawatt/finance-tools,49,2025-06,vishal hirawat,Merge pull request #13 from hirawatt/update-streamlit-1.46.0
+8,1,finance,python,huggingface/transformers,/TimKoornstra/FinTwitBERT,fintech,https://github.com/TimKoornstra/FinTwitBERT,155,2024-02,Stephan Akkerman,Update README examples
+7,2,finance,python,huggingface/transformers,/Sam120204/Fin4All,fintech,https://github.com/Sam120204/Fin4All,55,2024-08,Sam120204,update readme
+1,0,finance,python,huggingface/transformers,/Andrechang/Atradebot,fintech,https://github.com/Andrechang/Atradebot,135,2025-02,Andrechang,update doc
+1,1,finance,python,huggingface/transformers,/davidshch/MacroMind,fintech,https://github.com/davidshch/MacroMind,30,2025-06,David,"feat: Enhance AI analysis and market data services with improved data handling
+
+- Updated ai_analyst"
+1,0,finance,python,huggingface/transformers,/3m6d/Llama2RAG,fintech,https://github.com/3m6d/Llama2RAG,10,2024-12,Dipawoli Malla,Update README.md
+1,1,finance,python,huggingface/transformers,/AnnthomyGILLES/MarketPulseAI,fintech,https://github.com/AnnthomyGILLES/MarketPulseAI,295,2025-05,AnnthomyGILLES,Documentation about sentiment analysis
+1,0,finance,python,huggingface/transformers,/vatsalmehta2001/crypto_analytics_platform,fintech,https://github.com/vatsalmehta2001/crypto_analytics_platform,6,2025-03,Vatsal Mehta,reddit transition
+1,0,finance,python,huggingface/transformers,/crvander/FinDL_Fintech_DeepLearning,fintech,https://github.com/crvander/FinDL_Fintech_DeepLearning,230,2023-03,lwanderley,last commit
+0,3,finance,python,huggingface/transformers,/bkmulusew/ml_fx_trading,fintech,https://github.com/bkmulusew/ml_fx_trading,107,2025-11,?bkmulusew?,Add brl news dataset
+256,47,finance,python,huggingface/transformers,/devfinwiz/Fin-Maestro-Web,quantitative-finance,https://github.com/devfinwiz/Fin-Maestro-Web,215,2024-03,Dev V Juneja,Update README.md
+20,4,finance,python,huggingface/transformers,/KJLdefeated/Trajectory-Transformer-for-Quatitative-Trading,quantitative-finance,https://github.com/KJLdefeated/Trajectory-Transformer-for-Quatitative-Trading,82,2023-06,???,Update README.md
+14,4,finance,python,huggingface/transformers,/FranklineMisango/Trading-Terminal,quantitative-finance,https://github.com/FranklineMisango/Trading-Terminal,324,2025-07,FranklineMisango,Remove compiled Python bytecode files from __pycache__ directory
+6,2,finance,python,huggingface/transformers,/wuxxx949/stock_embedding_using_LLM,quantitative-finance,https://github.com/wuxxx949/stock_embedding_using_LLM,48,2024-02,wuxxx949,update
+3,0,finance,python,huggingface/transformers,/lucaswychan/quant-lvlm,quantitative-finance,https://github.com/lucaswychan/quant-lvlm,50,2025-04,LucasChan,ignore all images
+0,0,finance,python,huggingface/transformers,/LouisSch/Market-Sentiment,quantitative-finance,https://github.com/LouisSch/Market-Sentiment,4,2025-05,LouisSch,Update README.md
+131,28,finance,python,huggingface/transformers,/StephanAkkerman/fintwit-bot,financial-analysis,https://github.com/StephanAkkerman/fintwit-bot,873,2025-08,Stephan Akkerman,"Catch bugs
+
+close #719
+close #718
+close #717"
+35,15,finance,python,huggingface/transformers,/AI-ANK/ai-equity-research-analyst,financial-analysis,https://github.com/AI-ANK/ai-equity-research-analyst,67,2023-11,AI-ANK,Update requirements.txt
+26,3,finance,python,huggingface/transformers,/nickShengY/My-chatgpt,financial-analysis,https://github.com/nickShengY/My-chatgpt,13,2023-07,Sheng Yun,Update README.md
+16,3,finance,python,huggingface/transformers,/KhanhHua2102/Monetize.ai,financial-analysis,https://github.com/KhanhHua2102/Monetize.ai,337,2023-07,Quang Khanh Hua (Henry),refine error catching for update info
+11,1,finance,python,huggingface/transformers,/Niklauseik/FiLM-Benchmark,financial-analysis,https://github.com/Niklauseik/FiLM-Benchmark,10,2024-09,Niklaus,Update README.md
+5,0,finance,python,huggingface/transformers,/DanGlChris/short_activist_predictor,financial-analysis,https://github.com/DanGlChris/short_activist_predictor,9,2023-11,DanGlChris,final config for version 0.1.0
+3,1,finance,python,huggingface/transformers,/TroyonixAI/troyonix-financial-ai,financial-analysis,https://github.com/TroyonixAI/troyonix-financial-ai,76,2025-07,Christian Walkerow,Update requirements.txt
+3,0,finance,python,huggingface/transformers,/RobuRishabh/Financial-Insights-Chatbot-Leveraging-Retrieval-Augmented-Generation-for-10Q-and-10K-Reports,financial-analysis,https://github.com/RobuRishabh/Financial-Insights-Chatbot-Leveraging-Retrieval-Augmented-Generation-for-10Q-and-10K-Reports,5,2025-07,Rishabh Singh,"Merge pull request #1 from RobuRishabh/dependabot/pip/protobuf-5.29.5
+
+Bump protobuf from 5.29.3 to "
+1,0,finance,python,huggingface/transformers,/Riclex/market-analysis,financial-analysis,https://github.com/Riclex/market-analysis,7,2025-02,Rickoalex,Updated README.md
+0,0,finance,python,huggingface/transformers,/Work-With-Phoenix/invest-guard,financial-analysis,https://github.com/Work-With-Phoenix/invest-guard,33,2024-05,Tracy Muzembi,"Merge pull request #6 from Work-With-Phoenix/tracymuzembi-patch-1
+
+Create LICENSE"
+0,0,finance,python,huggingface/transformers,/s4ngl/gantt,financial-analysis,https://github.com/s4ngl/gantt,126,2024-11,skyangel,Merge branch 'main' of https://github.com/skaiiFlakes/luddy-hackathon
+0,0,finance,python,huggingface/transformers,/vishavsingla/Sustainplus,yahoo-finance,https://github.com/vishavsingla/Sustainplus,8,2024-08,Vishav Singla,Update README.md
+0,0,finance,python,huggingface/transformers,/OleksandrZadvornyi/marketcap-forecasting,yahoo-finance,https://github.com/OleksandrZadvornyi/marketcap-forecasting,38,2025-05,Oleksandr Zadvornyi,feat: add/modify scripts for other models
+0,0,agriculture,python,huggingface/transformers,/arju10/Bangla-Agricultural-Advisor-Chatbot-using-django,agriculture,https://github.com/arju10/Bangla-Agricultural-Advisor-Chatbot-using-django,23,2025-07,arju10,Update file paths
+0,0,agriculture,python,huggingface/transformers,/ahmed-ibrahim-asl/AgriGuard-Project,agriculture,https://github.com/ahmed-ibrahim-asl/AgriGuard-Project,20,2024-10,ahmed-ibrahim-asl,testing videos
+4,3,agriculture,python,huggingface/transformers,/PatD123/Crop-Lane-Detect,precision-agriculture,https://github.com/PatD123/Crop-Lane-Detect,60,2024-12,PatD123,Deleted directory
+5,1,drones,python,huggingface/transformers,/ablanco1950/Drone-Detection_Yolov10,drones,https://github.com/ablanco1950/Drone-Detection_Yolov10,31,2025-08,Alfonso Blanco.,Update README.md
+4,1,drones,python,huggingface/transformers,/kausthub-kannan/DROPEX,drone,https://github.com/kausthub-kannan/DROPEX,29,2024-10,Kausthub Kannan,add: DROPEX logo
+2,0,drones,python,huggingface/transformers,/hugs7/DECO3801-Eye-Tracking-Voice-Drone,drone,https://github.com/hugs7/DECO3801-Eye-Tracking-Voice-Drone,1253,2024-10,Hugo Burton,105 add drone connection button (#114)
+848,102,autonomous-driving,python,huggingface/transformers,/taco-group/OpenEMMA,autonomous-driving,https://github.com/taco-group/OpenEMMA,37,2025-05,Shuo XING,"Merge pull request #38 from ChrisYang2017/main
+
+add Qwen2.5-vl support"
+817,58,autonomous-driving,python,huggingface/transformers,/OpenDriveLab/Vista,autonomous-driving,https://github.com/OpenDriveLab/Vista,45,2025-07,faikit,Update README.md
+497,35,autonomous-driving,python,huggingface/transformers,/hustvl/Senna,autonomous-driving,https://github.com/hustvl/Senna,14,2024-12,rb93dett,add surround view multi-image prompts.
+461,43,autonomous-driving,python,huggingface/transformers,/autonomousvision/carla_garage,autonomous-driving,https://github.com/autonomousvision/carla_garage,95,2025-08,Bernhard Jaeger,"Merge pull request #85 from PDillis/update-download-data
+
+Update download_data.sh"
+408,27,autonomous-driving,python,huggingface/transformers,/yifanlu0227/ChatSim,autonomous-driving,https://github.com/yifanlu0227/ChatSim,66,2024-12,Yifan Lu,Update README.md
+315,39,autonomous-driving,python,huggingface/transformers,/SenseTime-FVG/OpenDWM,autonomous-driving,https://github.com/SenseTime-FVG/OpenDWM,23,2025-06,Liu Yichen,"Merge pull request #67 from Yiminglii/work1
+
+fix the download links in readme file"
+283,37,autonomous-driving,python,huggingface/transformers,/autonomousvision/plant,autonomous-driving,https://github.com/autonomousvision/plant,15,2024-11,Katrin Renz,"Merge pull request #25 from SimonGer/update-urls
+
+Updated Carla urls"
+248,13,autonomous-driving,python,huggingface/transformers,/wenyuqing/panacea,autonomous-driving,https://github.com/wenyuqing/panacea,12,2024-08,wenyuqing,_
+205,14,autonomous-driving,python,huggingface/transformers,/OpenDriveLab/ELM,autonomous-driving,https://github.com/OpenDriveLab/ELM,56,2025-07,faikit,Update README.md
+158,15,autonomous-driving,python,huggingface/transformers,/javyduck/ChatScene,autonomous-driving,https://github.com/javyduck/ChatScene,20,2025-03,javyduck,fix error
+127,13,autonomous-driving,python,huggingface/transformers,/metadriverse/SimGen,autonomous-driving,https://github.com/metadriverse/SimGen,18,2025-02,Zhenghao Peng,"Format code (#9)
+
+* Better readme
+
+* Better print message
+
+* Add two format code
+
+* Format cod"
+81,4,autonomous-driving,python,huggingface/transformers,/Petrichor625/HLTP,autonomous-driving,https://github.com/Petrichor625/HLTP,70,2024-11,Haicheng Liao,Add files via upload
+66,2,autonomous-driving,python,huggingface/transformers,/taco-group/LangCoop,autonomous-driving,https://github.com/taco-group/LangCoop,55,2025-09,XIANGBO GAO,"Update README with port matching instructions
+
+Clarify instructions regarding port matching for Carl"
+29,9,autonomous-driving,python,huggingface/transformers,/s-suryakiran/DriveVLM,autonomous-driving,https://github.com/s-suryakiran/DriveVLM,22,2023-12,s-suryakiran,updated
+23,4,autonomous-driving,python,huggingface/transformers,/hzjian123/VLArena,autonomous-driving,https://github.com/hzjian123/VLArena,125,2025-03,Eachann HE,Update README.md
+4,0,autonomous-driving,python,huggingface/transformers,/AppSolves/LanePilot,autonomous-driving,https://github.com/AppSolves/LanePilot,373,2025-08,AppSolves,Update package versions in requirements.txt for improved compatibility and performance
+1,0,autonomous-driving,python,huggingface/transformers,/Ebimsv/Hazard-Detection-and-Captioning-System,autonomous-driving,https://github.com/Ebimsv/Hazard-Detection-and-Captioning-System,22,2024-11,ebi,visualize image in Readme
+1,0,autonomous-driving,python,huggingface/transformers,/ebjaime/T2I-ADriver,autonomous-driving,https://github.com/ebjaime/T2I-ADriver,8,2024-11,Jaime Enr¡quez,Update README.md
+1130,50,autonomous-driving,python,huggingface/transformers,/cure-lab/MagicDrive,autonomous-vehicles,https://github.com/cure-lab/MagicDrive,41,2025-04,Guspan Tanadi,[doc] update mirror repo link (#152)
+803,110,cybersecurity,python,huggingface/transformers,/berylliumsec/nebula,cybersecurity,https://github.com/berylliumsec/nebula,490,2025-04,berylliumsec-handler,readding index page
+151,16,cybersecurity,python,huggingface/transformers,/safellama/plexiglass,cybersecurity,https://github.com/safellama/plexiglass,146,2023-12,Enoch Kan,Update logo image to plexiglass_safellama.png
+112,40,cybersecurity,python,huggingface/transformers,/santosomar/AI-agents-for-cybersecurity,cybersecurity,https://github.com/santosomar/AI-agents-for-cybersecurity,173,2025-11,Omar Santos,Update ChatOpenAI model to gpt-5 across multiple instances for enhanced performance
+68,25,cybersecurity,python,huggingface/transformers,/yashab-cyber/nmap-ai,cybersecurity,https://github.com/yashab-cyber/nmap-ai,8,2025-08,Yashab Alam,"Merge pull request #2 from yashab-cyber/copilot/fix-1
+
+Fix Docker image publishing infrastructure an"
+65,57,cybersecurity,python,huggingface/transformers,/ezztahoun/attack_flow_detector,cybersecurity,https://github.com/ezztahoun/attack_flow_detector,30,2025-04,Ezzeldin Tahoun,update
+63,10,cybersecurity,python,huggingface/transformers,/ZySec-AI/project-zysec,cybersecurity,https://github.com/ZySec-AI/project-zysec,82,2024-05,vSiddi,fix prompt
+39,7,cybersecurity,python,huggingface/transformers,/amazon-science/Cyber-Zero,cybersecurity,https://github.com/amazon-science/Cyber-Zero,6,2025-09,Terry Zhuo,add CTF-Dojo info
+31,3,cybersecurity,python,huggingface/transformers,/bliutech/nlp-pdf-malware-detection,cybersecurity,https://github.com/bliutech/nlp-pdf-malware-detection,22,2022-12,Benson Liu,"updated README to contain release links
+
+* updated link for training data
+* updated link for valida"
+25,1,cybersecurity,python,huggingface/transformers,/jpmorganchase/CyberBench,cybersecurity,https://github.com/jpmorganchase/CyberBench,3,2024-11,lifexamined,"Merge pull request #1 from jpmorganchase/dev
+
+Upload files"
+19,4,cybersecurity,python,huggingface/transformers,/berylliumsec/eclipse,cybersecurity,https://github.com/berylliumsec/eclipse,28,2024-03,David,adding video to readme
+12,2,cybersecurity,python,huggingface/transformers,/Resk-Security/Resk-LLM,cybersecurity,https://github.com/Resk-Security/Resk-LLM,131,2025-08,resk,change doc
+12,1,cybersecurity,python,huggingface/transformers,/cprite/phishing-detection-ext,cybersecurity,https://github.com/cprite/phishing-detection-ext,68,2025-06,Nikolay,"Merge pull request #15 from cprite/dependabot/pip/flask-cors-4.0.2
+
+Bump flask-cors from 4.0.0 to 4."
+9,1,cybersecurity,python,huggingface/transformers,/lynneeai/ConvoSentinel,cybersecurity,https://github.com/lynneeai/ConvoSentinel,6,2024-12,Lin Ai,Update README.md
+9,2,cybersecurity,python,huggingface/transformers,/yashab-cyber/lewis,cybersecurity,https://github.com/yashab-cyber/lewis,147,2025-08,Yashab Alam,hi
+8,2,cybersecurity,python,huggingface/transformers,/mytechnotalent/falcongpt,cybersecurity,https://github.com/mytechnotalent/falcongpt,10,2023-06,Kevin Thomas,Update README.md
+8,3,cybersecurity,python,huggingface/transformers,/apartresearch/3cb,cybersecurity,https://github.com/apartresearch/3cb,8,2024-10,Esben Kran,Update README.md
+6,0,cybersecurity,python,huggingface/transformers,/josh1643/totalrecon,cybersecurity-tools,https://github.com/josh1643/totalrecon,8,2025-04,Joshua Wasserman,Update README.md with ai warning
+176,20,blockchain,python,huggingface/transformers,/KOSASIH/Pi-CryptoConnect,blockchain,https://github.com/KOSASIH/Pi-CryptoConnect,653,2025-04,KOSASIH,Update encrypted_data_storage.py
+116,64,blockchain,python,huggingface/transformers,/macrocosm-os/apex,blockchain,https://github.com/macrocosm-os/apex,2749,2025-10,Dmytro,Merge pull request #820 from macrocosm-os/feature/full-burn
+110,9,blockchain,python,huggingface/transformers,/KOSASIH/stable-pi-core,blockchain,https://github.com/KOSASIH/stable-pi-core,1584,2025-05,KOSASIH,Create PiDAO.sol
+51,74,blockchain,python,huggingface/transformers,/ritual-net/infernet-container-starter,blockchain,https://github.com/ritual-net/infernet-container-starter,31,2024-10,arshan-ritual,"Merge pull request #27 from ritual-net/sr/feat/remove_infernet_ml
+
+Remove infernet_ml"
+27,8,blockchain,python,huggingface/transformers,/ritual-net/infernet-ml,blockchain,https://github.com/ritual-net/infernet-ml,2,2024-06,arshan-ritual,fix: monorepo migration notice
+25,2,blockchain,python,huggingface/transformers,/ValyrianTech/ValyrianSpellbook,blockchain,https://github.com/ValyrianTech/ValyrianSpellbook,1307,2025-11,Wouter Glorieux,Add OllamaChatLLM with reasoning support (Chat Completions) and integrate in llmhelpers; fix chat st
+16,7,blockchain,python,huggingface/transformers,/opentensor/validators,blockchain,https://github.com/opentensor/validators,555,2023-11,p-ferreira,Update README.md
+14,3,blockchain,python,huggingface/transformers,/chain-ml/web3-copilot,blockchain,https://github.com/chain-ml/web3-copilot,14,2023-10,Tomisin Jenrola,update notebook info (#13)
+13,4,blockchain,python,huggingface/transformers,/AIT-Protocol/einstein-ait-prod,blockchain,https://github.com/AIT-Protocol/einstein-ait-prod,242,2024-06,Hung Le,"Merge pull request #69 from AIT-Protocol/2.0.3
+
+change version number"
+11,0,blockchain,python,huggingface/transformers,/sharafdin/somTAO,blockchain,https://github.com/sharafdin/somTAO,6,2024-08,Mr Sharafdin,Refine README to focus on Somali language and blockchain empowerment
+9,3,blockchain,python,huggingface/transformers,/MeltedMindz/Dexter,blockchain,https://github.com/MeltedMindz/Dexter,171,2025-06,MeltedMindz,"?? Phase 2 Complete: MLOps Level 2 Continuous Learning Pipeline
+
+? Production Infrastructure Deployed"
+7,6,blockchain,python,huggingface/transformers,/DevGruGold/XMRT-Ecosystem,blockchain,https://github.com/DevGruGold/XMRT-Ecosystem,3246,2025-11,Eliza Health Monitor,"?? Repository Health Check #20251117 [automated]
+
+? Repository metrics collected
+?? Health score calcu"
+4,0,blockchain,python,huggingface/transformers,/Zdonuk/GensynAI,blockchain,https://github.com/Zdonuk/GensynAI,116,2025-05,zdonuk,Update README.md
+4,2,blockchain,python,huggingface/transformers,/Foundup/Foundups-Agent,blockchain-technology,https://github.com/Foundup/Foundups-Agent,614,2025-11,UnDaoDu,"feat(message-board): MB-2.5 thread lifecycle management + geo-fencing (#133)
+
+* debug(liberty): Add "
+3,0,blockchain,python,huggingface/transformers,/50RC3/vAIn_p2p_AGI,blockchain-technology,https://github.com/50RC3/vAIn_p2p_AGI,37,2025-08,VJJVR,Update vain.log
+307,38,energy,python,huggingface/transformers,/ml-energy/zeus,energy,https://github.com/ml-energy/zeus,384,2025-11,Jae-Won Chung,"[Device] Skip calling APIs when there will be no change, AMDSMI unit fixes (#204)"
+32,7,energy,python,huggingface/transformers,/huggingface/AIEnergyScore,energy,https://github.com/huggingface/AIEnergyScore,132,2025-11,Sasha Luccioni,"Update oct_2025_models.csv
+
+fixing GLM model name"
+11,0,energy,python,huggingface/transformers,/StonyBrookNLP/irene,energy,https://github.com/StonyBrookNLP/irene,7,2021-09,ykl7,website setup
+4,3,energy,python,huggingface/transformers,/slinusc/bench360,energy,https://github.com/slinusc/bench360,130,2025-09,slinusc,adjusted base task
+0,1,energy,python,huggingface/transformers,/S2-group/cain-2024-distilled-models-energy-perf-rep-pkg,energy,https://github.com/S2-group/cain-2024-distilled-models-energy-perf-rep-pkg,7,2024-04,Ivano Malavolta,Update README.md
+8,0,energy,python,huggingface/transformers,/Tobi-Tob/TransformersForEnergyManagement,energy-efficiency,https://github.com/Tobi-Tob/TransformersForEnergyManagement,151,2023-12,Tobi,changed all README files
+4,1,energy,python,huggingface/transformers,/ShaliniAnandaPhD/RefactorEarth,energy-efficiency,https://github.com/ShaliniAnandaPhD/RefactorEarth,83,2025-04,Shalini Ananda,Create FUNDING.yml
+1,1,energy,python,huggingface/transformers,/MighTy-Weaver/SMD4RAC_Detection,energy-efficiency,https://github.com/MighTy-Weaver/SMD4RAC_Detection,185,2024-01,MighTy-Weaver,update plots
+31,3,telecommunications,python,huggingface/transformers,/hackerchenzhuo/KTeleBERT,telecommunication,https://github.com/hackerchenzhuo/KTeleBERT,73,2024-05,Zhuo Chen,Update requirements.txt
+402,47,smart-city,python,huggingface/transformers,/HKUDS/UrbanGPT,smart-cities,https://github.com/HKUDS/UrbanGPT,38,2025-04,LZH-YS1998,Update load_dataset.py
+2,0,automated-hiring,python,huggingface/transformers,/joybratasarkar/AI-Driven-Developer-Search,recruitment,https://github.com/joybratasarkar/AI-Driven-Developer-Search,13,2024-11,joybs1999,commit
+15,7,compliance-checking-legal,python,huggingface/transformers,/itbench-hub/ITBench-CISO-CAA-Agent,compliance,https://github.com/itbench-hub/ITBench-CISO-CAA-Agent,34,2025-03,Takumi Yanagawa,"fix: shell quoting and README links (#11)
+
+* fix: correct links in readme
+
+Signed-off-by: Takumi Yan"
+10,0,compliance-checking-legal,python,huggingface/transformers,/scimorph/secureml,compliance,https://github.com/scimorph/secureml,105,2025-06,EnzoFanAccount,bump docs
+6,0,compliance-checking-legal,python,huggingface/transformers,/sylvester-francis/Automated-Document-Compliance-Auditor,compliance,https://github.com/sylvester-francis/Automated-Document-Compliance-Auditor,35,2025-05,Sylvester Francis,Fix 404 errors by adding favicon and enhancing error logging
+1,1,compliance-checking-legal,python,huggingface/transformers,/Francesco-Sovrano/AI-Act-Compliance-Technical-Documentation-Assessment-Tools,compliance-automation,https://github.com/Francesco-Sovrano/AI-Act-Compliance-Technical-Documentation-Assessment-Tools,3,2025-03,francesco.sovrano,Update README.md
