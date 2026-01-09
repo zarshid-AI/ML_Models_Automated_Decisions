@@ -38,6 +38,7 @@ Project structure and one-line description for every file
 Root
 - README.md — This file: overview, setup and file-level descriptions.
 - ML_decisonmaking_research_project.png — This image: overview, number project analyised and final decision making projects.
+- github_projects_domain_sub-domains_analysis.pdf — This pdf: domain and sub-domain analysis of github projects.
 
 data
 - research_paper_repos_dataset_selected.csv — Curated CSV of repositories referenced by research papers used as input for analysis.
