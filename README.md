@@ -37,7 +37,7 @@ Project structure and one-line description for every file
 
 Root
 - README.md — This file: overview, setup and file-level descriptions.
-- research_project_flow.jpg — This image: overview, number project analyised and final decision making projects.
+- ML_decisonmaking_research_project.png — This image: overview, number project analyised and final decision making projects.
 
 data
 - research_paper_repos_dataset_selected.csv — Curated CSV of repositories referenced by research papers used as input for analysis.
