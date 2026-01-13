@@ -28,10 +28,6 @@ python domain_wise_repository_github.py
 ```
 python compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py
 ```
-- Filter research-paper projects for Python language:
-```
-python python_filter_project_research_paper.py
-```
 
 Project structure and one-line description for every file
 
@@ -41,7 +37,6 @@ Root
 - github_projects_domain_sub-domains_analysis.pdf — This pdf: domain and sub-domain analysis of github projects.
 
 data
-- research_paper_repos_dataset_selected.csv — Curated CSV of repositories referenced by research papers used as input for analysis.
 - sorted_dependents_repo_huggingface_transformers.csv — Pre-sorted list of dependents of HuggingFace Transformers used to match against domain repos.
 
 python
@@ -50,14 +45,13 @@ python
 python/assets
 - github_domain_repos.csv — CSV of repositories fetched by domain/topic (expected input for compare script).
 - matched_repos_with_dependent_before_checking_decision_making.csv — Output of the compare script containing matched records before decision filtering.
-- research_paper_dataset_selected_python_only.csv — Filtered research-paper dataset that contains only Python-language projects.
 
 python/script
 - .env — Environment file holding secrets (GitHub token); not committed to VCS and used by domain fetch script.
 - example.env — Example env file to copy and populate with your GitHub token.
 - domain_wise_repository_github.py — Script to query GitHub by domain/topic and save repository metadata (name, stars, forks, language, link, domain).
 - compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py — Script to compare domain-fetched repos with the HuggingFace dependents CSV and produce matched output.
-- python_filter_project_research_paper.py — Utility script to filter research-paper repositories to only Python projects and save results.
+
 
 results
 - final_decision_making_repos.csv — Post-processed CSV of repositories selected after decision-making or manual review.
