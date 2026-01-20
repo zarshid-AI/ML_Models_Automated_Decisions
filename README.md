@@ -33,7 +33,7 @@ Project structure and one-line description for every file
 
 Root
 - README.md — This file: overview, setup and file-level descriptions.
-- ML_decisonmaking_research_project.png — This image: overview, number project analyised and final decision making projects.
+- ml_decisonmaking_research_project.png — This image: overview, number project analyised and final decision making projects.
 - github_projects_domain_sub-domains_analysis.pdf — This pdf: domain and sub-domain analysis of github projects.
 
 data
@@ -56,7 +56,7 @@ python/script
 results
 - final_decision_making_repos.csv — Post-processed CSV of repositories selected after decision-making or manual review.
 - github_model_domain_wise.docx — Word document summarizing model/domain-wise repository selections and notes.
-- output_clusters.docx — Word document containing clustering outputs, visualizations, and explanations.
+- output_clusters.docx — Word document containing clustering outputs, and explanations.
 - postprocessing_rulebase_cluster.docx — Documentation of rule-based postprocessing applied to clusters and selection logic.
 
 Notes & troubleshooting
