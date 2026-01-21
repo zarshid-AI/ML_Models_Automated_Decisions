@@ -1,70 +1,68 @@
-Prerequisites
-- Python 3.8+
-- Windows machine (commands shown below)
-- A GitHub personal access token for higher API rate limits
+# ML Models Automated Decisions
 
-Install dependencies
-Open PowerShell or Command Prompt at the project root and run:
-```
-pip install -r python/requirements.txt
-```
+This project aims to examine Github repositories wheater project made automatic decision. It includes collecting data from GitHub, comparing it with existing datasets (huggingface), manually examine 
+workflow of project and cluster the post-processing and output of projects.
+## Project Structure
 
-Setup
-1. Copy the example env and set your GitHub token:
-```
-cd python\script
-copy example.env .env
-# Edit .env and set GITHUB_TOKEN=ghp_...
-```
-2. Ensure required data files exist in the data and python/assets folders.
+- **README.md**: This file provides an overview of the project, including setup instructions, usage, and a description of the project structure.
+  
+- **data/**: Contains datasets used in the project.
+  - **README.md**: Explains the contents of the data folder.
+  - **sorted_dependents_repo_huggingface_transformers.csv**: A pre-sorted list of dependents of HuggingFace Transformers, which have information about stars, forks, full name of repository (/ownername/repository name) and projects belong to huggingface
 
-How to run
-- Fetch domain repositories (queries GitHub; requires .env with token):
-```
-cd python\script
-python domain_wise_repository_github.py
-```
+- **python/**: Contains Python scripts and dependencies.
+  - **README.md**: Describes the contents of the python folder.
+  - **requirements.txt**: Lists the Python package dependencies required for the project.
+  - **assets/**: Contains output files from the scripts.
+    - **README.md**: Explains the contents of the assets folder.
+    - **github_domain_repos.csv**: Repositories fetched by domain/topic from github have following feature about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
+    - **matched_repos_with_dependent_before_checking_decision_making.csv**: Matched records before decision filtering which have infomation about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
+  
+  - **script/**: Contains scripts for data fetching and comparison.
+    - **README.md**: Describes the scripts in the script folder.
+    - **.env**: Holds environment variables, including the GitHub token.
+    - **example.env**: Example environment file to copy and populate with your GitHub token.
+    - **domain_wise_repository_github.py**: python script queries GitHub by domain/topic and saves repository metadata.
+    - **compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py**: Python script compares domain-fetched repositories with the HuggingFace dependents CSV and produces matched output.
+
+- **results/**: Contains output files from the analysis.
+  - **README.md**: Explains the contents of the results folder.
+  - **final_decision_making_repos.csv**:  This file contains the final list of selected GitHub repositories. Each row represents one project used in the decision-making analysis. It helps track which repositories are included and compared. The file is mainly for reference and evaluation.
+   
+  - **github_model_domain_wise.docx**: extented work flow of github repository from input to output each step (input, pre-processing, decision, post-processing, output)
+  - **output_clusters.docx**: Contains clustering outputs of github projects and their explanations.
+  - **postprocessing_rulebase_cluster.docx**: Describes the rule-based postprocessing applied to clusters and selection logic.
+
+- **appendix/**: Contains additional analysis documents.
+  - **README.md**: Explains the contents of the appendix folder.
+  - **github_projects_domain_sub-domains_analysis.pdf**: Analysis of GitHub projects by domain and sub-domain.
+  - **output_categories.pdf**: Outlines the categories of outputs from the project.
+  - **unique_models_github_systems_analysis.pdf**: Analysis of unique models in GitHub systems.
+
+## Setup Instructions
+
+1. Ensure you have Python 3.8+ installed on your Windows machine.
+2. Obtain a GitHub personal access token for higher API rate limits.
+3. Install the required dependencies by running:
+   ```
+   pip install -r python/requirements.txt
+   ```
+4. Set up your environment by copying the example environment file and editing it to include your GitHub token:
+   ```
+   cd python/script
+   copy example.env .env
+   # Edit .env and set GITHUB_TOKEN=ghp_...
+   ```
+5. Ensure the required data files exist in the `data` and `python/assets` folders.
+
+## How to Run
+
+- Fetch domain repositories:
+   ```
+   cd python/script
+   python domain_wise_repository_github.py
+   ```
 - Compare fetched domain repos with the pre-sorted dependents CSV:
-```
-python compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py
-```
-
-Project structure and one-line description for every file
-
-Root
-- README.md — This file: overview, setup and file-level descriptions.
-- ml_decisonmaking_research_project.png — This image: overview, number project analyised and final decision making projects.
-- github_projects_domain_sub-domains_analysis.pdf — This pdf: domain and sub-domain analysis of github projects.
-
-data
-- sorted_dependents_repo_huggingface_transformers.csv — Pre-sorted list of dependents of HuggingFace Transformers used to match against domain repos.
-
-python
-- requirements.txt — Python package dependencies required by the scripts.
-
-python/assets
-- github_domain_repos.csv — CSV of repositories fetched by domain/topic (expected input for compare script).
-- matched_repos_with_dependent_before_checking_decision_making.csv — Output of the compare script containing matched records before decision filtering.
-
-python/script
-- .env — Environment file holding secrets (GitHub token); not committed to VCS and used by domain fetch script.
-- example.env — Example env file to copy and populate with your GitHub token.
-- domain_wise_repository_github.py — Script to query GitHub by domain/topic and save repository metadata (name, stars, forks, language, link, domain).
-- compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py — Script to compare domain-fetched repos with the HuggingFace dependents CSV and produce matched output.
-
-
-results
-- final_decision_making_repos.csv — Post-processed CSV of repositories selected after decision-making or manual review.
-- github_model_domain_wise.docx — Word document summarizing model/domain-wise repository selections and notes.
-- output_clusters.docx — Word document containing clustering outputs, and explanations.
-- postprocessing_rulebase_cluster.docx — Documentation of rule-based postprocessing applied to clusters and selection logic.
-
-Notes & troubleshooting
-- Ensure CSV encodings are UTF-8 to avoid pandas read errors.
-- The compare script expects consistent column names (e.g., repository name fields); mismatches will prevent correct matching.
-- GitHub API rate limits apply; include a valid token in python/script/.env to increase query limits.
-- If domain fetch writes output to a different path, move that CSV to python/assets/github_domain_repos.csv for the compare script to find it.
-
-Contributing
-- Modify search domains or topics inside python/script/domain_wise_repository_github.py to change which repositories are collected.
-- Adjust matching logic or output columns inside python/script/compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py.
+   ```
+   python compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py
+   ```
