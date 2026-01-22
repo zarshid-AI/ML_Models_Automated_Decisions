@@ -1,7 +1,5 @@
 This file provides an overview of the contents of the `python` folder within the ML Models Automated Decisions project. It includes details about the required dependencies, scripts, their functionalities, and environment configuration files necessary for querying GitHub repositories by domain and comparing them with HuggingFace Transformers dependents.
 
-## Folder Structure
-
 1. **domain_wise_repository_github.py**
    - This script queries GitHub for repositories based on specified domains or topics. It retrieves metadata for each repository, including: repository_name, stars, forks, language, link, domain, sub-domain. 
 
