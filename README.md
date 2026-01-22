@@ -1,8 +1,6 @@
 # Replication Package
-This replication package contains the necessary data and Python script to for reproducing the results of our paper: "Machine Learning in the Wild: Early Evidence of Non-Compliant ML-Automation in Open-Source Software".
-project aims to examine GitHub repositories wheater project made automatic decision. 
-It includes collecting data from GitHub, comparing it with the dependents of *huggingface/transformer*, manually examine 
-workflow of project and cluster the post-processing and output of projects.
+This replication package contains the necessary data and Python script to for reproducing the results of our paper: "Machine Learning in the Wild: Early Evidence of Non-Compliant ML-Automation in Open-Source Software", aimed at examining the automated-decision process of high-risk open-source projects. 
+
 ## Project Structure
 The project is organized into the following main directories and files:
 
