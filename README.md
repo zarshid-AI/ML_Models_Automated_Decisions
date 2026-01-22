@@ -4,9 +4,8 @@ This replication package contains the necessary data and Python script to for re
 ## Project Structure
 The project is organized as follows:
 
-### ``data/``: Contains datasets used in the project.
-  - ``README.md``: Explains the contents of the data folder.
-  - ``sorted_dependents_repo_huggingface_transformers.csv``: A pre-sorted list of dependents of HuggingFace Transformers, which have information about stars, forks, full name of repository (/ownername/repository name) and projects belong to huggingface
+### ``data/``: Contains datasets used in the project
+  - ``sorted_dependents_repo_huggingface_transformers.csv``: This file contains a pre-sorted list of dependents of the huggingface/transformer library on GitHub. For each client project the file reports: (i) name of the project, (ii) number of stars, and (iii) number of forks.
   - ``github_domain_repos.csv``: Repositories fetched by domain/topic from github have following feature about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
   - ``matched_repos_with_dependent_before_checking_decision_making.csv``: Matched records before decision filtering which have infomation about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
 
