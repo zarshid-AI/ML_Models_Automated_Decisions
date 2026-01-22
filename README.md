@@ -2,7 +2,7 @@
 This replication package contains the necessary data and Python script to for reproducing the results of our paper: "Machine Learning in the Wild: Early Evidence of Non-Compliant ML-Automation in Open-Source Software", aimed at examining the automated-decision process of high-risk open-source projects. 
 
 ## Project Structure
-The project is organized into the following main directories and files:
+The project is organized as follows:
 
 ### ``data/``: Contains datasets used in the project.
   - ``README.md``: Explains the contents of the data folder.
