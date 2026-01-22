@@ -31,7 +31,7 @@ The `results` folder contains the output files generated from the project, summa
 - **models** : List of AI or ML models used in the project.
 
 
-### github_model_domain_wise.pdf
+### github_system_domain_wise.pdf
 This file groups GitHub projects by their application domain. It shows which models belong to areas like healthcare, finance, driving, or security. The goal is to understand how AI models are spread across domains. It aids in domain-wise analysis and comparison.
 
 ### automated_decision_types.pdf
