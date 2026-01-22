@@ -23,7 +23,7 @@ The project is organized into the following main directories and files:
 ### ``results/``: Contains output files from the analysis.
   - ``README.md``: Explains the contents of the results folder.
   - ``final_decision_making_repos.csv``:  This file contains the final list of selected GitHub repositories. Each row represents one project used in the decision-making analysis. It helps track which repositories are included and compared. The file is mainly for reference and evaluation.
-  - ``github_model_domain_wise.pdf``: extented work flow of github repository from input to output each step (input, pre-processing, decision, post-processing, output)
+  - ``github_systems_domain_wise_workflow.pdf``: extented work flow of github repository from input to output each step (input, pre-processing, decision, post-processing, output)
   - ``automated_decision_types.pdf``: Contains clustering outputs of github projects and their explanations.
   - ``postprocessing_rulebase_cluster.pdf``: Describes the rule-based postprocessing applied to clusters and selection logic.
 
