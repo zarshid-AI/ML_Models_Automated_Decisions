@@ -1,5 +1,3 @@
-# README.md for Appendix Folder
-
 This folder contains supplementary materials related to the project, specifically analyses and reports that provide insights into GitHub projects and their categorization. Below is a description of each file contained within this folder:
 
 ## Files in the Appendix Folder

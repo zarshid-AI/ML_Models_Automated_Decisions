@@ -1,37 +1,37 @@
-# ML Models Automated Decisions
-
-This project aims to examine Github repositories wheater project made automatic decision. It includes collecting data from GitHub, comparing it with existing datasets (huggingface), manually examine 
+# Replication Package
+This replication package contains the necessary data and python script to for reproducing the results of our paper: "Machine Learning in the Wild: Early Evidence of Non-Compliant ML-Automation in Open-Source Software".
+project aims to examine GitHub repositories wheater project made automatic decision. 
+It includes collecting data from GitHub, comparing it with the dependents of *huggingface/transformer*, manually examine 
 workflow of project and cluster the post-processing and output of projects.
 ## Project Structure
+The project is organized into the following main directories and files:
 
-- **README.md**: This file provides an overview of the project, including setup instructions, usage, and a description of the project structure.
-  
-- **data/**: Contains datasets used in the project.
-  - **README.md**: Explains the contents of the data folder.
-  - **sorted_dependents_repo_huggingface_transformers.csv**: A pre-sorted list of dependents of HuggingFace Transformers, which have information about stars, forks, full name of repository (/ownername/repository name) and projects belong to huggingface
-  - **github_domain_repos.csv**: Repositories fetched by domain/topic from github have following feature about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
-  - **matched_repos_with_dependent_before_checking_decision_making.csv**: Matched records before decision filtering which have infomation about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
+### ``data/``: Contains datasets used in the project.
+  - ``README.md``: Explains the contents of the data folder.
+  - ``sorted_dependents_repo_huggingface_transformers.csv``: A pre-sorted list of dependents of HuggingFace Transformers, which have information about stars, forks, full name of repository (/ownername/repository name) and projects belong to huggingface
+  - ``github_domain_repos.csv``: Repositories fetched by domain/topic from github have following feature about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
+  - ``matched_repos_with_dependent_before_checking_decision_making.csv``: Matched records before decision filtering which have infomation about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
 
-- **python/**: Contains Python scripts and dependencies.
-  - **README.md**: Describes the contents of the python folder.
-  - **requirements.txt**: Lists the Python package dependencies required for the project.
-  - **.env**: Holds environment variables, including the GitHub token.
-  - **example.env**: Example environment file to copy and populate with your GitHub token.
-  - **domain_wise_repository_github.py**: python script queries GitHub by domain/topic and saves repository metadata.
-  - **compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py**: Python script compares domain-fetched repositories with the HuggingFace dependents CSV and produces matched output.
+### ``python/``: Contains Python scripts and dependencies.
+  - ``README.md``: Describes the contents of the python folder.
+  - ``requirements.txt``: Lists the Python package dependencies required for the project.
+  - ``.env``: Holds environment variables, including the GitHub token.
+  - ``example.env``: Example environment file to copy and populate with your GitHub token.
+  - ``domain_wise_repository_github.py``: python script queries GitHub by domain/topic and saves repository metadata.
+  - ``compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py``: Python script compares domain-fetched repositories with the HuggingFace dependents CSV and produces matched output.
 
-- **results/**: Contains output files from the analysis.
-  - **README.md**: Explains the contents of the results folder.
-  - **final_decision_making_repos.csv**:  This file contains the final list of selected GitHub repositories. Each row represents one project used in the decision-making analysis. It helps track which repositories are included and compared. The file is mainly for reference and evaluation.
-  - **github_model_domain_wise.pdf**: extented work flow of github repository from input to output each step (input, pre-processing, decision, post-processing, output)
-  - **automated_decision_types.pdf**: Contains clustering outputs of github projects and their explanations.
-  - **postprocessing_rulebase_cluster.pdf**: Describes the rule-based postprocessing applied to clusters and selection logic.
+### ``results/``: Contains output files from the analysis.
+  - ``README.md``: Explains the contents of the results folder.
+  - ``final_decision_making_repos.csv``:  This file contains the final list of selected GitHub repositories. Each row represents one project used in the decision-making analysis. It helps track which repositories are included and compared. The file is mainly for reference and evaluation.
+  - ``github_model_domain_wise.pdf``: extented work flow of github repository from input to output each step (input, pre-processing, decision, post-processing, output)
+  - ``automated_decision_types.pdf``: Contains clustering outputs of github projects and their explanations.
+  - ``postprocessing_rulebase_cluster.pdf``: Describes the rule-based postprocessing applied to clusters and selection logic.
 
-- **appendix/**: Contains additional analysis documents.
-  - **README.md**: Explains the contents of the appendix folder.
-  - **github_projects_domain_sub-domains_analysis.pdf**: Analysis of GitHub projects by domain and sub-domain.
-  - **output_categories.pdf**: Outlines the categories of outputs from the project.
-  - **unique_models_github_systems_analysis.pdf**: Analysis of unique models in GitHub systems.
+### ``appendix/``: Contains additional analysis documents.
+  - ``README.md``: Explains the contents of the appendix folder.
+  - ``github_projects_domain_sub-domains_analysis.pdf``: Analysis of GitHub projects by domain and sub-domain.
+  - ``output_categories.pdf``: Outlines the categories of outputs from the project.
+  - ``unique_models_github_systems_analysis.pdf``: Analysis of unique models in GitHub systems.
 
 ## Setup Instructions
 
