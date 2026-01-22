@@ -18,13 +18,12 @@ workflow of project and cluster the post-processing and output of projects.
       - ``github_domain_repos.csv``: Repositories fetched by domain/topic from github have following feature about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
       - ``matched_repos_with_dependent_before_checking_decision_making.csv``: Matched records before decision filtering which have infomation about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
   
-
-### ``script/``: Contains scripts for data fetching and comparison.
-  - ``README.md``: Describes the scripts in the script folder.
-  - ``.env``: Holds environment variables, including the GitHub token.
-  - ``example.env``: Example environment file to copy and populate with your GitHub token.
-  - ``domain_wise_repository_github.py``: python script queries GitHub by domain/topic and saves repository metadata.
-  - ``compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py``: Python script compares domain-fetched repositories with the HuggingFace dependents CSV and produces matched output.
+    ### ``script/``: Contains scripts for data fetching and comparison.
+      - ``README.md``: Describes the scripts in the script folder.
+      - ``.env``: Holds environment variables, including the GitHub token.
+      - ``example.env``: Example environment file to copy and populate with your GitHub token.
+      - ``domain_wise_repository_github.py``: python script queries GitHub by domain/topic and saves repository metadata.
+      - ``compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py``: Python script compares domain-fetched repositories with the HuggingFace dependents CSV and produces matched output.
 
 
 ### ``results/``: Contains output files from the analysis.
