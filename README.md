@@ -18,7 +18,7 @@ The project is organized as follows:
     - **github_link**: The URL to access the repository on GitHub.
     - **domain**: The specific domain/topic under which the repository is categorized.
     - **sub-field**: The specific sub-domain under which the domain is sub-categorized.
-  - ``matched_repos_with_dependent_before_checking_decision_making.csv``: Matched records before decision filtering which have infomation about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
+  - ``matched_repos_with_dependent_before_checking_decision_making.csv``: This file is the result of the intersection between the high risk projects (``github_domain_repos.csv``) and the client projects importing the huggingface/transformer library (``sorted_dependents_repo_huggingface_transformers.csv``). It lists the initial sample accounting for 173 projects used to answer our research questions. 
 
 ### ``python/``: Contains Python scripts and dependencies.
   - ``README.md``: Describes the contents of the python folder.
