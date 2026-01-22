@@ -31,11 +31,11 @@ The `results` folder contains the output files generated from the project, summa
 - **models** : List of AI or ML models used in the project.
 
 
-### github_model_domain_wise.docx
+### github_model_domain_wise.pdf
 This file groups GitHub projects by their application domain. It shows which models belong to areas like healthcare, finance, driving, or security. The goal is to understand how AI models are spread across domains. It aids in domain-wise analysis and comparison.
 
-### output_clusters.docx
+### automated_decision_types.pdf
 This file explains how output of projects are grouped into different clusters. Each cluster represents a type of task, such as control, vision, security, or advice. It also lists the projects that belong to each cluster. The document helps understand high-level project categorization.
 
-### postprocessing_rulebase_cluster.docx
+### postprocessing_rulebase_cluster.pdf
 This file describes rule-based methods used after AI model outputs. It explains different rule types like threshold checks, validation, and multi-agent voting. Each section includes simple examples from real projects. The file shows how rules improve safety, structure, and decision quality.

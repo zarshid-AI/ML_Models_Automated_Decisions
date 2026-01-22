@@ -107,7 +107,7 @@ for domain, topics in domains.items():
         time.sleep(0.5)
 
 # Save to CSV
-with open("github_domain_repos.csv", "w", newline="", encoding="utf-8") as f:
+with open("./data/github_domain_repos.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=[
         "repoName", "dependent", "stars", "forks", "total_commits",
         "last_commit_date", "last_commit_author", "last_commit_message",
