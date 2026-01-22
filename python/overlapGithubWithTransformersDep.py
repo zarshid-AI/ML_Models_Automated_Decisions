@@ -6,7 +6,7 @@ project_root = script_dir.parent
 
 # Read the CSV files
 github_domain_repos = pd.read_csv('./data/github_domain_repos.csv')
-csv_path = './data/sorted_dependents_repo_huggingface_transformers.csv'
+csv_path = './data/dependents_transformers.csv'
 sorted_dependents = pd.read_csv(csv_path)
 
 # Strip whitespace from column names and string columns
@@ -45,7 +45,7 @@ for _, domain_row in github_domain_repos.iterrows():
 result_df = pd.DataFrame(matched_data)
 
 # Save to a new CSV file
-output_filename = './data/matched_repos_with_dependent_before_checking_decision_making.csv'
+output_filename = './data/results_overlap_github_transformers.csv'
 result_df.to_csv(output_filename, index=False)
 
 # print(f"Matching complete! Found {len(result_df)} matches.")

@@ -7,7 +7,7 @@ It involves gathering data from GitHub, comparing it to the dependents of *huggi
 
 The project is organized into the following main directories and files:
 ### ``data/``: Contains datasets used in the project
-  - ``sorted_dependents_repo_huggingface_transformers.csv``: This file contains a pre-sorted list of dependents of the huggingface/transformer library on GitHub. For each client project the file reports: (i) name of the project, (ii) number of stars, and (iii) number of forks.
+  - ``dependents_transformers.csv``: This file contains a pre-sorted list of dependents of the huggingface/transformer library on GitHub. For each client project the file reports: (i) name of the project, (ii) number of stars, and (iii) number of forks.
   - ``github_domain_repos.csv``: This file contains the set of projects we have retrieved by searching by topics (application areas) using the GitHub API. For each project we report:
     - **repoName**: Name of the repository (owner name/project name).
     - **stars**: Number of stars.
@@ -20,14 +20,14 @@ The project is organized into the following main directories and files:
     - **github_link**: The URL to access the repository on GitHub.
     - **domain**: The specific domain/topic under which the repository is categorized.
     - **sub-field**: The specific sub-domain under which the domain is sub-categorized.
-  - ``matched_repos_with_dependent_before_checking_decision_making.csv``: This file is the result of the intersection between the high risk projects (``github_domain_repos.csv``) and the client projects importing the huggingface/transformer library (``sorted_dependents_repo_huggingface_transformers.csv``). It lists the initial sample accounting for 173 projects used to answer our research questions. 
+  - ``overlap_github_transformers.csv``: This file is the result of the intersection between the high risk projects (``github_domain_repos.csv``) and the client projects importing the huggingface/transformer library (``sorted_dependents_repo_huggingface_transformers.csv``). It lists the initial sample accounting for 173 projects used to answer our research questions. 
 
 ### ``python/``: Contains Python scripts and dependencies.
   - ``requirements.txt``: Lists the Python package dependencies required for the project.
   - ``.env``: Holds environment variables, including the GitHub token.
   - ``example.env``: Example environment file to copy and populate with your GitHub token.
   - ``domain_wise_repository_github.py``: Python script queries GitHub by domain/topic and saves repository metadata.
-  - ``compare_sorted_dependents_repo_huggingface_with_git_domain_wise_data.py``: Python script compares domain-fetched repositories with the HuggingFace dependents CSV and produces matched output.
+  - ``overlapGithubWithTransformersDep.py``: Python script compares domain-fetched repositories with the HuggingFace dependents CSV and produces matched output.
 
 ### ``results/``: Contains output files from the analysis.
   - ``github_systems_domain_wise_workflow.pdf``: Extended workflow of a GitHub repository from input to output: each step includes input, pre-processing, decision, post-processing, and output.
