@@ -1,16 +1,24 @@
 # Replication Package
-This replication package contains the necessary data and python script to for reproducing the results of our paper: "Machine Learning in the Wild: Early Evidence of Non-Compliant ML-Automation in Open-Source Software".
-project aims to examine GitHub repositories wheater project made automatic decision. 
-It includes collecting data from GitHub, comparing it with the dependents of *huggingface/transformer*, manually examine 
-workflow of project and cluster the post-processing and output of projects.
-## Project Structure
-The project is organized into the following main directories and files:
+This replication package contains the necessary data and Python script to for reproducing the results of our paper: "Machine Learning in the Wild: Early Evidence of Non-Compliant ML-Automation in Open-Source Software", aimed at examining the automated-decision process of high-risk open-source projects. 
 
-### ``data/``: Contains datasets used in the project.
-  - ``README.md``: Explains the contents of the data folder.
-  - ``sorted_dependents_repo_huggingface_transformers.csv``: A pre-sorted list of dependents of HuggingFace Transformers, which have information about stars, forks, full name of repository (/ownername/repository name) and projects belong to huggingface
-  - ``github_domain_repos.csv``: Repositories fetched by domain/topic from github have following feature about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
-  - ``matched_repos_with_dependent_before_checking_decision_making.csv``: Matched records before decision filtering which have infomation about repository name, stars, forks, language, github link, last commit, last commit month, domain ans sub-domain name.
+## Project Structure
+The project is organized as follows:
+
+### ``data/``: Contains datasets used in the project
+  - ``sorted_dependents_repo_huggingface_transformers.csv``: This file contains a pre-sorted list of dependents of the huggingface/transformer library on GitHub. For each client project the file reports: (i) name of the project, (ii) number of stars, and (iii) number of forks.
+  - ``github_domain_repos.csv``: This file contains the set of projects we have retrieved by searching by topics (application areas) using the GitHub API. For each project we report:
+    - **repoName**: Name of the repository (owner name/project name).
+    - **stars**: Number of stars.
+    - **forks**: Number of forks.
+    - **total_commits**: Number of total commits.
+    - **last_commit_month**: Month of last commit.
+    - **last_commit_author**: Author of last commit.
+    - **last_commit_message**: Commit message of the last commit.
+    - **language**: The primary programming language used in the repository.
+    - **github_link**: The URL to access the repository on GitHub.
+    - **domain**: The specific domain/topic under which the repository is categorized.
+    - **sub-field**: The specific sub-domain under which the domain is sub-categorized.
+  - ``matched_repos_with_dependent_before_checking_decision_making.csv``: This file is the result of the intersection between the high risk projects (``github_domain_repos.csv``) and the client projects importing the huggingface/transformer library (``sorted_dependents_repo_huggingface_transformers.csv``). It lists the initial sample accounting for 173 projects used to answer our research questions. 
 
 ### ``python/``: Contains Python scripts and dependencies.
   - ``README.md``: Describes the contents of the python folder.
